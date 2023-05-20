@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #8f8f8f;
+}
+
+
+
+.contents{
+    position: relative;
+    width: 50%;
+    color:rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 24px 24px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.snake_board{
+
+    width: 80vmin;
+    height: 80vmin;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .75;
+    display: grid;  
+    grid-template: repeat(30,1fr)/repeat(30,1fr);
+
+}
+.js_timer{
+    text-align: center;
+}
+
+
+.snake_board .head{
+    background-color: rgb(15, 210, 38);
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+}
+.controls i{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border-right: 1px solid #ffffff; 
+}
+
+
+#sq1{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+#sq2{
+    height: 25px;
+    width: 25px;
+}
+#sq3{
+    height: 25px;
+    width: 25px;
+}
+.snake_board #sq11{
+
+}
+.snake_board #sq22{
+
+}
+.snake_board #sq33{
+
+}
